@@ -1,0 +1,42 @@
+.box{
+	overflow: hidden;
+	margin: 50px 0;
+}
+/* draggable */
+ #draggable { width: 150px; height: 150px; padding: 0.5em; background-color: green; }
+
+
+ /* droppable */
+ 
+ #dragg { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+
+  /* sortable */
+ #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+  #sortable li span { position: absolute; margin-left: -1.3em; }
+
+  /* menu */
+  .ui-menu { width: 200px; }
+  .ui-widget-header { padding: 0.2em; }
+
+  /* animate demo */
+  .togganimdemo { width: 600px; height: 200px; position: relative; }
+    #animdemobtn { padding: .5em 1em; text-decoration: none; }
+    #animeffect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #animeffect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+    /* addClass */
+  .toggaddclass { width: 500px; height: 200px; position: relative; }
+    #addclsbtn { padding: .5em 1em; text-decoration: none; }
+    #addclseffect { width: 240px;  padding: 1em; border: 1px solid #000; background: #eee; color: #333; }
+    .newClass { text-indent: 40px; letter-spacing: .4em; width: 300px; height: 100px; padding: 30px; margin: 10px; font-size: 1.1em; }
+ 
+
+ /* switchclass */
+ .toggswclass { width: 500px; height: 200px; position: relative; }
+  #swclassbtn { padding: .5em 1em; text-decoration: none; }
+  #effectswclass { position: relative; }
+  .newswClass { width: 240px;  padding: 1em; letter-spacing: 0; margin: 0; }
+  .anotherNewClass { text-indent: 40px; letter-spacing: .2em; width: 410px; height: 100px; padding: 30px; margin: 10px; font-size: 1.1em; }
+  </style>
